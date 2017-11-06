@@ -7,7 +7,7 @@ export class NgxOrderByPipe implements PipeTransform {
   private fields: Array<string>;
   private reverse: boolean;
 
-  transform(values: Array<Object>, fields: Array<string>, reverse: boolean, changeIndicator: number): any {
+  transform(values: Array<Object>, fields: Array<string>, reverse: boolean, changeIndicator?: number): any {
     this.fields = fields.slice();
     this.reverse = reverse;
 
