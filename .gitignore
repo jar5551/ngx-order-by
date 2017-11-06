@@ -40,3 +40,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+*.d.ts
+index.js
+*.js.map
+*.map
+*.js
+!karma.conf.js
+!protractor.conf.js
