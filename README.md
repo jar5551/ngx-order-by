@@ -26,7 +26,7 @@ imports: [
 ## How to use
 
 ```html
-<li *ngFor="let item of items | ngxOrderBy:orderFields:orderReverse:changeIndicator;>
+<li *ngFor="let item of items | ngxOrderBy:orderFields:orderReverse:changeIndicator;">
   ...
 </li>
 ```
