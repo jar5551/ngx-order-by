@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jar5551/ngx-order-by.git"
+    "url": "git+git@nsgitlab.nomasolutions.pl:nomasolutions-web/ns00104.git"
   },
   "keywords": [
     "angular",
@@ -27,9 +27,9 @@
   "author": "Jaroslaw Frydrych <jarek.frydrych@gmail.com> (github.com/jar5551)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jar5551/ngx-order-by/issues"
+    "url": "https://nsgitlab.nomasolutions.pl/nomasolutions-web/ns00104/issues"
   },
-  "homepage": "https://github.com/jar5551/ngx-order-by#readme",
+  "homepage": "https://nsgitlab.nomasolutions.pl/nomasolutions-web/ns00104#readme",
   "private": false,
   "dependencies": {
     "@angular/animations": "^4.2.4",
