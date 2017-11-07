@@ -1,25 +1,31 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
-    "module": "commonjs",
-    "target": "ES5",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "sourceMap": true,
+    "baseUrl": ".",
     "declaration": true,
-    "lib": [ "es2015", "dom" ],
-    "suppressImplicitAnyIndexErrors": true,
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types": [
+    "stripInternal": true,
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "paths": {
+      "@angular/core": ["node_modules/@angular/core"],
+      "rxjs/*": ["node_modules/rxjs/*"]
+    },
+    "rootDir": ".",
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "es5",
+    "skipLibCheck": true,
+    "lib": [
+      "es2015",
+      "dom"
     ]
   },
   "files": [
     "index.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true
+  }
 }

@@ -2,7 +2,7 @@
   "name": "ngx-order-by",
   "description": "Order by multpile fields and directions pipe for Angular >= 2",
   "main": "index.ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
